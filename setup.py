@@ -16,7 +16,7 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'httplib2>=0.11.3, <0.12',
-        'six>=1.9,<1.10',
+        'six>=1.10,<1.11',
         'oauth2client>=4.0,<4.1',
         'futures>=3.1.1, <3.2',
     ],
