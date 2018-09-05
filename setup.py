@@ -5,11 +5,12 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="containerregistry-ccwienk",
-    version="0.0.1",
+    version="0.1.0",
     author="Christian Cwienk",
     author_email="Christian.Cwienk@sap.com",
     description="a library and tools for interacting with container registries",
     long_description=long_description,
+    # Make sure to havee up-to-date setuptools, twine and wheel
     long_description_content_type="text/markdown",
     url="https://github.com/ccwienk/containerregistry",
     packages=setuptools.find_packages(),
